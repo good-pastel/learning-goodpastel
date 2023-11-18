@@ -1,0 +1,341 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Century Gothic';
+}
+
+.wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'HGKyokashotai';
+    color: #fc9b7d;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;   
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #a8a8a8;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Century Gothic';
+    color: #fc9b7d;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: 'Century Gothic';
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Century Gothic';
+    margin-bottom: 20px;
+    color: #fc9b7d;
+    width: 100%;
+    line-height: 50px;
+}
+
+#courses h2{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Century Gothic';
+    margin-bottom: 20px;
+    color: #fc9b7d;
+    width: 100%;
+    line-height: 25px;
+}
+
+img{
+    width: 50%;
+    border-radius: 50px;
+}
+
+a.tbl-1{
+    background: #fca7c6;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tbl-1:hover{
+    background: #626fa8;
+    text-decoration: none;
+}
+
+a.tbl-2{
+    background: #626fa8;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-2:hover{
+    background: #fca7c6;
+}
+
+.tutor-s{
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p{
+    font-family: 'Century Gothic';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #fc9b7d;
+}
+
+.partner-list{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.kartu-partner p{
+    font-family: 'Century Gothic';
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: #fc9b7d;
+}
+
+#contact{
+    background-color: rgb(250, 229, 172);
+    padding: 50px 0px 50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+h3{
+    font-family: 'Century Gothic';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fc9b7d;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 780px){
+    .wrapper {
+        width: 90%;
+    }
+    .logo a{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu{
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul{
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li{
+        display: inline-block;
+        float: none;
+    }
+
+    section{
+        display: block;
+    }
+    section img{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .kartu-tutor {
+        width: 50%;
+    }
+    .kartu-partner {
+        width: 50%;
+    }
+    .footer{
+        width: auto;
+        display: block
+    }
+    .footer-section{
+        width: 100%;
+    }
+}
+/* tambahan dari style pendaftaran & verification */
+table{
+    width: 600px;
+}
+@media screen and (max-width:700px){
+    table{
+        width: 90%;
+    }  
+}
+table td{
+    padding: 5px;
+}
+td.label{ 
+    width: 40%;
+}
+.input{
+    border: 1px solid #cccccc;
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+input.tbl-biru{
+    border: none;
+    background-color: #626fa8;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+input.tbl-biru:hover{
+    background-color: #fca7c6;
+    text-decoration: none;
+}
+.error{
+    padding: 20px;
+    background-color: #dd0202;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.sukses{
+    padding: 20px;
+    background-color: #0283b8;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.error ul{
+    margin-left: 10px;
+}
