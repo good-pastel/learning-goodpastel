@@ -42,5 +42,5 @@ if(!$koneksi){
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://svgur.com/i/12Gy.svg
 [linkedin-url]: https://linkedin.com/in/deviyool
