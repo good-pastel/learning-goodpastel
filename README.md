@@ -33,7 +33,7 @@ if(!$koneksi){
 ```
 
 
-&copy Good Pastel. 2024
+<p>&copy Good Pastel. 2024</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
