@@ -32,12 +32,7 @@ if(!$koneksi){
 }
 ```
 
-## Languages
 
-<img src="https://i.ibb.co/YTtQX8R/2.png">
-<br>
-<br>
-<br>
 &copy Good Pastel. 2024
 
 <!-- MARKDOWN LINKS & IMAGES -->
